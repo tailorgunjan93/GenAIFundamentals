@@ -62,3 +62,7 @@ User: hello
 Gemini: Gemini: Hello! How can I help you today?
 
 
+User: hello
+Gemini: Gemini: Hello! How can I help you today?
+
+
