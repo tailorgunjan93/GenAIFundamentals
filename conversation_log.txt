@@ -66,3 +66,25 @@ User: hello
 Gemini: Gemini: Hello! How can I help you today?
 
 
+User: hello
+Gemini: Gemini: Hello! How can I help you today?
+
+
+User: how are you
+Gemini: Gemini: I am doing well, thank you for asking! As a large language model, I don't experience emotions or feelings in the same way humans do, but I am functioning as expected and ready to assist you. How can I help you today?
+
+
+User: what did i just say
+Gemini: Gemini: You just said "what did i just say".
+
+
+User: can you summarize conversation
+Gemini: Gemini: Okay, here's a summary of our conversation so far:
+
+You said "hello", then asked "how are you", and then asked "what did I just say?".
+
+
+User: hello
+Gemini: Gemini: Hello! How can I help you today?
+
+

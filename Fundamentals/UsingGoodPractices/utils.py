@@ -20,20 +20,24 @@ def chat_with_gemini(user_input):
     Sends a user message to the Gemini chat model and returns the AI's response.
     Appends each user message to the conversation history.
     """
-    # Add the user's message to the conversation
-    message.append({"role": "user", "content": user_input})
-    # Initialize the OpenAI client with your API key and endpoint
-    gen_ai = OpenAI(api_key=gemini_api_key, base_url=config.GEMINI_URL_OPEN_AI)
-    # Send the message to the GenAI chat model and get a response
-    response = gen_ai.chat.completions.create(
-        model=config.GEMINI_FLASH_MODEL_NAME,  # Use a valid model name as per your API provider
-        messages=message, 
-        temperature=config.Tempture,  # Controls randomness/creativity
-        max_tokens=config.MAX_TOKENS  # Limits response length
-    )
-    # Print the AI's response to the user's message
-    print("Gemini: " + response.choices[0].message.content)
-    return response.choices[0].message.content
+    try:
+        # Add the user's message to the conversation
+        message.append({"role": "user", "content": user_input})
+        # Initialize the OpenAI client with your API key and endpoint
+        gen_ai = OpenAI(api_key=gemini_api_key, base_url=config.GEMINI_URL_OPEN_AI)
+        # Send the message to the GenAI chat model and get a response
+        response = gen_ai.chat.completions.create(
+            model=config.GEMINI_FLASH_MODEL_NAME,  # Use a valid model name as per your API provider
+            messages=message, 
+            temperature=config.Tempture,  # Controls randomness/creativity
+            max_tokens=config.MAX_TOKENS  # Limits response length
+        )
+        # Print the AI's response to the user's message
+        print("Gemini: " + response.choices[0].message.content)
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return None
 
 # Function to log the conversation to a file
 def log_conversation(user_input, ai_response):
