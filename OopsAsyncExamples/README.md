@@ -1,6 +1,13 @@
-# OopsAsyncExamples: Asynchronous Python, Object-Oriented Style
 
-![Async Python Illustration](./async_magazine.png)
+<div align="center">
+	<img src="./async_magazine.png" alt="Async Python Magazine Cover" width="350"/>
+  
+	<h1 style="font-size:2.5em; margin-bottom:0.2em;">Async & OOP Python</h1>
+	<h2 style="color:#007acc; font-weight:normal; margin-top:0;">The Modern Pythonist's Magazine</h2>
+	<p style="font-size:1.2em; color:#444; max-width:600px; margin:auto;">
+		<em>Discover the art of writing fast, elegant, and scalable Python code with asynchronous programming and object-oriented design. <br> Dive into hands-on examples, clear explanations, and practical patterns—just like your favorite tech magazine!</em>
+	</p>
+</div>
 
 ---
 
