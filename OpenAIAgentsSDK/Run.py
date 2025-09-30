@@ -12,7 +12,7 @@ async def main():
             response = await Runner.run(first_agent,
             user_input
             )
-            print("Final response:", response)
+            #print("Final response:", response)
             print("Result is "+response.final_output)
         
 if __name__ == "__main__":
