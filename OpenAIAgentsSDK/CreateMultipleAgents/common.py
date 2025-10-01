@@ -3,7 +3,7 @@
 
 import os
 from dotenv import load_dotenv
-from agents import Agent, OpenAIChatCompletionsModel
+from agents import OpenAIChatCompletionsModel
 from openai import AsyncOpenAI
 import config
 

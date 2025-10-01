@@ -40,7 +40,7 @@ flowchart TD
 
 | Project            | Preview                                  |
 |--------------------|------------------------------------------|
-| Chatbot            | ![Chatbot](https://img.icons8.com/ios/50/000000/chatbot.png) |
+| Chatbot            | ![Chatbot](https://huggingface.co/spaces/Gunjan93/GenAIGunjan) |
 | Image Generator    | ![ImageGen](https://img.icons8.com/ios/50/000000/image.png)  |
 | Prompt Playground  | ![Prompt](https://img.icons8.com/ios/50/000000/keyboard.png) |
 
