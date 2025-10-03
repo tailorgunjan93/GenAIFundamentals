@@ -40,7 +40,11 @@ flowchart TD
 
 | Project            | Preview                                  |
 |--------------------|------------------------------------------|
+<<<<<<< HEAD
 | Chatbot            |    (https://huggingface.co/spaces/Gunjan93/GenAIGunjan) |
+=======
+| Chatbot            | https://huggingface.co/spaces/Gunjan93/GenAIGunjan
+>>>>>>> 8af9499e8d092132c43047f979a808671d2f4ab9
 | Image Generator    | ![ImageGen](https://img.icons8.com/ios/50/000000/image.png)  |
 | Prompt Playground  | ![Prompt](https://img.icons8.com/ios/50/000000/keyboard.png) |
 
