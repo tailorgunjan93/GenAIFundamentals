@@ -1,0 +1,25 @@
+[project]
+name = "stockresearch"
+version = "0.1.0"
+description = "stockresearch using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=0.201.1,<1.0.0",
+    "google-generativeai>=0.8.5",
+    "pydentic>=0.0.1.dev3",
+]
+
+[project.scripts]
+stockresearch = "stockresearch.main:run"
+run_crew = "stockresearch.main:run"
+train = "stockresearch.main:train"
+replay = "stockresearch.main:replay"
+test = "stockresearch.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
