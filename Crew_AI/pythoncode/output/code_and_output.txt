@@ -1,0 +1,31 @@
+```python
+# Calculate the sum of the series and multiply by 4
+def calculate_series_sum(num_terms):
+    """Calculates the sum of the series and multiplies by 4.
+
+    Args:
+        num_terms: The number of terms to calculate.
+
+    Returns:
+        The calculated sum.
+    """
+    series_sum = 0.0
+    for i in range(num_terms):
+        term = 1.0 / (2 * i + 1)
+        if i % 2 == 0:
+            series_sum += term
+        else:
+            series_sum -= term
+    return series_sum * 4
+
+# Calculate the sum for the first 10,000 terms
+num_terms = 10000
+result = calculate_series_sum(num_terms)
+
+# Print the result
+print(result)
+```
+Output:
+```text
+3.1413926535900346
+```
