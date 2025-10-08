@@ -5,9 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "google-generativeai>=0.8.5",
     "gradio>=5.46.1",
     "langchain>=0.3.27",
+    "langchain-community>=0.3.30",
+    "langchain-google-genai>=2.0.10",
+    "langgraph>=0.6.8",
+    "langgraph-checkpoint-sqlite>=2.0.11",
     "openai>=1.108.1",
     "openai-agents>=0.3.2",
+    "playwright>=1.55.0",
     "python-dotenv>=1.1.1",
 ]
